@@ -11,7 +11,7 @@ pool:
 
 
 stages:
-- stage: Terraform Validate
+- stage: TerraformValidate
   jobs:
     - job: TerraformValidateJob
       continueOnError: false
